@@ -1,6 +1,5 @@
 .name{   /* cambio el formato del titulo  */
-    
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
     font-size: 24px;
     /* font-weight: bold; */
     margin-top: -10px;
@@ -10,7 +9,7 @@
 
 .nameLong{
     font-size: 17px;
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
 }
 
 
@@ -23,7 +22,7 @@
     padding-top: 5px; /*agrando el button hacia arriba  */
     padding-bottom: 5px; /* agrando el button hacia abajo */
     border-radius: 15px;
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
     cursor: pointer;
 }
 .button:hover{   /*cambia el botton cuando el mouse pasa por ahi  */
@@ -44,7 +43,7 @@
     padding-top: 5px; /*agrando el button hacia arriba  */
     padding-bottom: 5px; /* agrando el button hacia abajo */
     border-radius: 15px;
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
     cursor: pointer;
     margin-top: 10%;
     margin-right: 5px;
@@ -62,13 +61,13 @@
 
 
 .leter{   /* cambio el formato del titulo  */
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
     font-size: 15px;
     /* margin-top: -2%;      */
 }
 
 .leterAndCategory{   /* cambio el formato del titulo  */
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
     font-size: 15px;
     margin-top: -1px;     
 }
