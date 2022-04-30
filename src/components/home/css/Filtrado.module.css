@@ -4,7 +4,7 @@
     /* border: none; */
     /* border:ridge  ; */
     border-color: black;
-    font-family: 'Cookie', cursive;
+    /* font-family: 'Cookie', cursive; */
     margin-left: 5px;
     cursor: pointer;
 }
@@ -19,7 +19,6 @@
 }
 
 .letter:hover{
-    font-family: 'Cookie', cursive;
     font-size: 15px;
     color: rgb(255, 251, 251);
 }
