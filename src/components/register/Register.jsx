@@ -86,6 +86,7 @@ export default function Register(){
         }
         createUserFirebase(user.email , user.password) // creo el usuario para que se guarde en firebase
         dispatch(postUser(user));
+        alert("usuario creado con exito")
         setUser({
             email:"",
             name:"",
