@@ -77,7 +77,7 @@ export default function Home(){
     useEffect(()=>{ // cuando pase x tiempo el setTime se va a setear a un strig vacio para dejar de mostar el "time"
         setTimeout(()=>{
             setTime("") 
-        },9000)
+        },10000)
     },[])
     // console.log(time)
 
@@ -114,7 +114,7 @@ export default function Home(){
                     <a href="/home" className={styles.reload} >Presopuesto App </a>
                 </div>
                 <br />
-                <h1 className={styles.h1} >Bienbenido {userByEmail && userByEmail.name}</h1>
+                <h1 className={styles.h1} >Bienvenido {userByEmail && userByEmail.name}</h1>
                 <div className={styles.notOperation} >
                     <img className= {styles.imag} src={loading} alt="Loading" /> 
                     <h2 className={styles.loading}>{time} </h2> 
