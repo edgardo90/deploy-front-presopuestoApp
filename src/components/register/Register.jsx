@@ -122,6 +122,7 @@ export default function Register(){
                     <input
                      type="text"
                      name="name"
+                     style={{width : "165px", heigth : "1px"}}
                      value={user.name}
                      onChange = {event => handleChange(event)}
                      />
@@ -135,6 +136,7 @@ export default function Register(){
                     <input
                      type="text"
                      name="lastName"
+                     style={{width : "165px", heigth : "1px"}}
                      value={user.lastName}
                      onChange = {event => handleChange(event)}
                      />
@@ -148,6 +150,7 @@ export default function Register(){
                     <input
                      type="password"
                      name="password"
+                     style={{width : "165px", heigth : "1px"}}
                      value={user.password}
                      onChange = {event => handleChange(event)}
                      />
