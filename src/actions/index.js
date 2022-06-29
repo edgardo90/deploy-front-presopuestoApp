@@ -14,11 +14,12 @@ import {
     POST_USER,
     GET_EMAIL_USER
 } from "./types";
+const {users} = process.env 
 import axios from "axios";
 
 export function getUsers(){
     return async function(dispatch){
-        const json = await axios.get("https://presopuesto-app.herokuapp.com/users/");
+        const json = await axios.get(users);
         return dispatch({
             type: GET_USERS,
             payload: json.data,
