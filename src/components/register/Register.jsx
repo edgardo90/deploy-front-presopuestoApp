@@ -43,6 +43,9 @@ export default function Register(){
     const {createUserFirebase} = useAuth()
     const allUsers = useSelector(state => state.users);
 
+    const {users} = process.env
+    console.log(users) //
+
     useEffect(()=>{
         dispatch(getUsers());
     },[dispatch]);
