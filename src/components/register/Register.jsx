@@ -45,6 +45,7 @@ export default function Register(){
 
     const users = process.env.users
     console.log(users) //
+    console.log(process.env.VERCEL_ENV)
 
     useEffect(()=>{
         dispatch(getUsers());
