@@ -1,3 +1,14 @@
+Para tener en cuenta
+
+Deployado base de datos con heroku y front con vercel.
+
+Link de la pagina: https://presopuesto-app.vercel.app/
+
+Usuario: ejemplo@gmail.com , contraseña: ataque77
+
+Link del repositorio proyecto inicial: https://github.com/edgardo90/challenge-FullStack-JS-Alkemy
+
+
 # Getting Started with Create React App...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
