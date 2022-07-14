@@ -1,4 +1,4 @@
-##Para tener en cuenta
+## Para tener en cuenta
 
 Deployado base de datos con heroku y front con vercel.
 
