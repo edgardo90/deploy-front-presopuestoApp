@@ -63,7 +63,7 @@ export default function Register(){
             ...user,
             [event.target.name] : event.target.value,
         }));
-        // console.log(user)
+        console.log(user)
         setErrors(validate({
             ...user,
             [event.target.name] : event.target.value
