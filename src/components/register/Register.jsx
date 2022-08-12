@@ -43,14 +43,10 @@ export default function Register(){
     const {createUserFirebase} = useAuth()
     const allUsers = useSelector(state => state.users);
 
-    const users = process.env.users
-    console.log(process.env.VERCEL_USERS) //
-    console.log(process.env.VERCEL_ENV)
-
     useEffect(()=>{
         dispatch(getUsers());
     },[dispatch]);
-    // console.log(allUsers);
+    console.log(allUsers);
 
     const  [user , setUser ] = useState({
         email: "",
